@@ -26,8 +26,8 @@ header{
 footer{
       color: darkblue;
       background-color: beige;
-      text-align: center;
       text-decoration: none;
+      text-align: end;
       font-size: small;
       font-family: 'Courier New', Courier, monospace;
       font-style: normal;
