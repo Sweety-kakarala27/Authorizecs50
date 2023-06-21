@@ -23,3 +23,31 @@ header{
           font-style: normal;
           text-transform: capitalize;
          }
+footer{
+      color: darkblue;
+      background-color: beige;
+      text-align: center;
+      text-decoration: none;
+      font-size: small;
+      font-family: 'Courier New', Courier, monospace;
+      font-style: normal;
+    }
+/* unvisited link */
+a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }  
