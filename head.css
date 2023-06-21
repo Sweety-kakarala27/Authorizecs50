@@ -25,9 +25,9 @@ header{
          }
 footer{
       color: darkblue;
-      background-color: beige;
+      background-color: white;
       text-decoration: none;
-      text-align: end;
+      text-align: bottom left;
       font-size: small;
       font-family: 'Courier New', Courier, monospace;
       font-style: normal;
