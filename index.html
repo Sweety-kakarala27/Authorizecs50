@@ -1,13 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Search</title>
+        <title>Google Search</title>
+        <link rel="icon" type="image/x-icon" href="html5-icon.png">
+        <link rel="stylesheet" href="para.css">
+        <link rel="stylesheet" href="logo.css">
     </head>
     <body>
-        <h1>Google Search</h1>
-        <form action="https://google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
-        </form>
+        <div id="pages">
+            <h2><a href="google-image.html">Google images</a></h2> 
+            <h2><a href="google-advance.html">Google Advanced</a></h2> 
+        </div>
+        
+        <h3>
+            <div class= "google_logo">
+                 <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google_logo">
+            </div> 
+
+            <header>Search</header>
+            <form action="https://google.com/search" target="_blank">
+                <div class="query">
+                     <input type="text" name="q">
+                </div>
+
+                <div class="searchbox">
+                     <input type="submit" value="Google Search">
+                </div>
+
+                <div class="lucky">
+                     <input type="submit" value="I'm feeling lucky">
+                </div>
+            </form>
+           <footer>
+              <a href="#">Back to top</a>
+           </footer>
+        </h3>
     </body>
 </html>
