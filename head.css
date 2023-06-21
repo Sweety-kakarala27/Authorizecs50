@@ -1,0 +1,25 @@
+h1 {text-align: left; 
+    color: red;
+    font-family:arial,sans-serif;
+    font-size: medium;}
+
+h2 {text-align: right; 
+    color: blue;}
+
+h3 {text-align: center;
+        color:cornflowerblue;}
+
+h4 {text-align: left;
+        color: black;}
+
+h5 {text-align: left;
+            color: white;
+            padding: 1px;}
+header{ 
+          color: black;
+          text-align: center;
+          font-size: medium;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+          font-style: normal;
+          text-transform: capitalize;
+         }
